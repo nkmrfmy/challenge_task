@@ -43,7 +43,6 @@ total_price = price * input_number_of_people
 if input_number_of_people >= 5
   puts "5名以上ですので10%割引となります"
   total_price *= 0.9
-  puts "合計金額は#{total_price.floor}円となります。"
 end
 puts "合計金額は#{total_price.floor}円になります。"
 
